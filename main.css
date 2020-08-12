@@ -1,4 +1,6 @@
 body{
+    width: 95vw;
+
     background: #121214;
     display: flex;
     flex-direction: column;
@@ -7,16 +9,19 @@ body{
 }
 
 .header{
+    border: 1px solid red;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    display: grid;
 
-    margin-bottom: 6rem;
+    width: 95vw;
+    display: grid;
+    margin-bottom: 5rem;
 }
 
 .HeaderButton{
     background: #212025;
-    padding: .2rem 4rem;
+    padding: .2rem 1rem;
+
 
     color: white;
     font: 200 .6rem Archivo;
@@ -36,7 +41,7 @@ body{
 
 #programacao-button:hover{
     background: #91ff8e;
-    color: #212025;
+    color: black;
     border: #212025;
 
     cursor: pointer;
@@ -60,6 +65,7 @@ body{
 }
 
 .welcome{
+    border: 1px solid yellow;
     text-align: center;
     color: white;
     font: 300 1.8rem Archivo;
@@ -77,11 +83,11 @@ body{
     border-radius: 20px;
 
     background: #212025;
-    padding: 3rem;
+    padding: 2rem;
     width: 70%;
 }
 .card p{
-    font: 100 1.2rem Archivo;
+    font: 100 1rem Archivo;
     color: rgba(255, 255, 255, 0.692);
 }
 .card img{
@@ -111,14 +117,16 @@ body{
 }
 
 .card-header-text strong{
-    line-height: 2rem;
-    font-size: 2rem;
+    line-height: 0rem;
+    font-size: 1.2rem;
 }
 .card-header-text p{
     font-weight: 300;
-    font-size: 1.2rem;
+    line-height: 0;
+    font-size: .8rem;
 }
 .container{
+    border: 1px solid red;
     display: flex;
     flex-direction: column;
 
@@ -140,26 +148,29 @@ body{
     margin-left: 1rem;
 }
 .portfolio{
+    border: 1px solid red;
     display: flex;
     flex-direction: column;
 
-    margin-top: 2rem;
-    width: 100%;
+    margin-top: 1rem;
+    width: 95vw;
 }
-.javascript{
-    width: 100%;
+
+h1{
+    border: 1px solid red;
 }
+
 
 .portfolio-cards{
     display: flex;
 
     background: #302f36;
-    padding: 2rem 2rem;
+    padding: 1rem .4rem;
 
     border-radius: 10px;
 }
 .portfolio-cards img{
-    height: 10rem;
+    width: 28vw;
     border-radius: 1rem;
     border: 2px solid #302f36;
 }
@@ -180,7 +191,9 @@ body{
 }
 
 .footer{
-    margin-top: 8rem;
+    border: 1px solid yellow;
+    width: 74vw;
+    margin: 8rem auto;
     bottom: 10px;
 
     display: flex;
@@ -197,12 +210,19 @@ body{
 }
 
 @media (min-width: 700px){
+    .footer{
+        width: 93vw;
+    }
     .header{
-        width: 100%;
-        margin-left: 0;
+        width: 98vw;
+        margin-left: .1rem;
     }
     .welcome{
         font-size: 3rem;
+    }
+
+    .card p{
+        font-size: 1.6rem;
     }
 
     .welcome h2
@@ -219,21 +239,27 @@ body{
     .portfolio{
         margin-left: 4rem;
         max-width: 800px;
+
     }
     .portfolio h1{
-        font-size: 3rem;
+        font-size: 3rem;;
     }
     .portfolio-cards{
         width: 100%;
+        padding: 2rem 2rem;
     }
     .portfolio-cards img{
         height: 20rem;
         border-width: 10px;
+        
+        border-radius: 2rem;
+        width: 12rem;
     }
     .card-header-text{
         line-height: 0.21rem;
     }
     .card-header-text strong{
+        font-size: 2.6rem;
         line-height: 0.21;
     }
 }
@@ -241,5 +267,9 @@ body{
 @media (min-width: 1921px){
     .portfolio{
         margin: 2rem auto;
+    }
+    .footer{
+        margin-right: 2rem;
+        margin-left: 2rem;
     }
 }
