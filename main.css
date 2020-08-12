@@ -28,14 +28,30 @@ body{
 
     border: .2rem solid #121214;
 }
+
+#programacao-button a{
+    text-decoration: none;
+    color: white;
+}
+#design-button a{
+    text-decoration: none;
+    color: white;
+}
+
 #programacao-button:hover{
-    color: #91ff8e;
+    background: #91ff8e;
+    color: #212025;
+    border: #212025;
+
     cursor: pointer;
     transform: scale(1.01);
     transition: 100ms;
 }
 #design-button:hover{
-    color: #8257e6;
+    background: #8257e6;
+    color: #212025;
+    border: #212025;
+
     cursor: pointer;
     transform: scale(1.01);
     transition: 100ms;
@@ -88,7 +104,7 @@ body{
 }
 .card-header-text{
     display: block;
-    line-height:.21rem;
+    line-height: 1rem;
     font-family: Archivo;
 
     margin-top: 2rem;
@@ -198,5 +214,14 @@ body{
     .portfolio-cards img{
         height: 20rem;
         border-width: 10px;
+    }
+    .card-header-text{
+        line-height: 0.21rem;
+    }
+}
+
+@media (min-width: 1921px){
+    .portfolio{
+        margin: 2rem auto;
     }
 }
