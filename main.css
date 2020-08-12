@@ -7,13 +7,11 @@ body{
 }
 
 .header{
-    justify-content: space-evenly;
-    display: flex;
-    width: 80%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    display: grid;
 
-    margin-left: 2rem;
     margin-bottom: 6rem;
-    
 }
 
 .HeaderButton{
@@ -21,9 +19,7 @@ body{
     padding: .2rem 4rem;
 
     color: white;
-    font: 200 .8rem Archivo;
-
-    width: 50%;
+    font: 200 .6rem Archivo;
     text-align: center;
 
     border: .2rem solid #121214;
@@ -148,7 +144,6 @@ body{
     flex-direction: column;
 
     margin-top: 2rem;
-
     width: 100%;
 }
 .javascript{
@@ -156,7 +151,6 @@ body{
 }
 
 .portfolio-cards{
-    width: 100%;
     display: flex;
 
     background: #302f36;
@@ -188,8 +182,6 @@ body{
 .footer{
     margin-top: 8rem;
     bottom: 10px;
-
-    width: 100%;
 
     display: flex;
     justify-content: center;
@@ -230,6 +222,9 @@ body{
     }
     .portfolio h1{
         font-size: 3rem;
+    }
+    .portfolio-cards{
+        width: 100%;
     }
     .portfolio-cards img{
         height: 20rem;
