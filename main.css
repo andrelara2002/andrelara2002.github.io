@@ -115,6 +115,7 @@ body{
 }
 
 .card-header-text strong{
+    line-height: 2rem;
     font-size: 2rem;
 }
 .card-header-text p{
@@ -217,6 +218,9 @@ body{
     }
     .card-header-text{
         line-height: 0.21rem;
+    }
+    .card-header-text strong{
+        line-height: 0.21;
     }
 }
 
