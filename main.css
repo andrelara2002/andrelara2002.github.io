@@ -185,6 +185,23 @@ body{
     border: none;
 }
 
+.footer{
+    margin-top: 8rem;
+    bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    background: #212025;
+
+    font: 700 1.2rem Archivo;
+    color: white;
+
+    padding: 2rem;
+}
+.footer img{
+    width: 12rem;
+}
+
 @media (min-width: 700px){
     .header{
         width: 100%;
