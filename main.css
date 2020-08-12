@@ -5,10 +5,10 @@ body{
 .header{
     justify-content: space-evenly;
     display: flex;
-    width: 100%;
+    width: 80%;
 
+    margin-left: 2rem;
     margin-bottom: 6rem;
-    margin-top: -2rem;
 }
 
 .HeaderButton{
@@ -21,7 +21,7 @@ body{
     width: 50%;
     text-align: center;
 
-    border: .2rem solid rgb(24, 24, 24);
+    border: .2rem solid #121214;
 }
 #programacao-button:hover{
     color: #91ff8e;
@@ -162,6 +162,10 @@ body{
 }
 
 @media (min-width: 700px){
+    .header{
+        width: 100%;
+        margin-left: 0;
+    }
     .welcome{
         font-size: 3rem;
     }
