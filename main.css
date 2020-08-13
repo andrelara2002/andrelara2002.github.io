@@ -18,7 +18,9 @@ body{
     display: grid;
     margin-bottom: 5rem;
 }
-
+a{
+    cursor: default;
+}
 .HeaderButton{
     background: #212025;
     padding: .2rem 1rem;
@@ -156,7 +158,6 @@ body{
 }
 
 
-
 .portfolio-cards{
     display: flex;
 
@@ -171,9 +172,16 @@ body{
     border: 2px solid #302f36;
 }
 
-.portfolio-cards img:hover{
+#activate-card:hover{
     transform: scale(1.1);
     transition: 300ms;
+
+    cursor: pointer;
+}
+
+#deactivate-card :hover{
+    cursor: default;
+    transform: scale(1);
 }
 
 .react_js, .javascript, .phyton{
