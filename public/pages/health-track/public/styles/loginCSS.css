@@ -69,11 +69,12 @@ button :hover{
     cursor: pointer;
 }
 
-#form button img{
-    margin-left: 1rem;
+#button-autenticar img {
     width: 2rem;
 }
-
+#button-autenticar{
+    margin: .1rem 4rem;
+}
 
 
 @media (min-width: 700px){
