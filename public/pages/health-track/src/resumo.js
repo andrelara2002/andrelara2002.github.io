@@ -37,5 +37,7 @@ goToPeso = () =>{
 goToAltura = () =>{
     window.location.href = 'userAltura.html'
 }
-
+goToGithub = () =>{
+    window.location.href = 'https://github.com/andrelara2002'
+}
 render();
