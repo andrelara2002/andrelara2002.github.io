@@ -71,4 +71,7 @@ goToAltura = () =>{
 goToGithub = () =>{
     window.location.href = 'https://github.com/andrelara2002'
 }
+goToIndex = () => {
+    window.location.href = 'https://andrelara2002.github.io'
+}
 render();

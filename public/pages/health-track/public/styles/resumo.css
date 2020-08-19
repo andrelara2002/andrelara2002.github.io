@@ -4,6 +4,12 @@
 }
 .header img{
     width: 10rem;
+    transition: 200ms;
+}
+.header img:hover{
+    transition: 200ms;
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .card{
