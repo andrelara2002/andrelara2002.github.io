@@ -194,6 +194,10 @@ a{
     transform: scale(1);
 }
 
+#activate-card, #deactivate-card{
+    margin: .2rem .2rem;
+}
+
 .react_js, .javascript, .phyton{
     margin-top: 2rem;
 }
