@@ -7,10 +7,11 @@ class App {
         this.inputElement = document.querySelector('input');
         this.formElement = document.getElementById('repo-form')
         this.registerHandlers();
+        this.headerImg = document.getElementById('header-img')
     }
-
     registerHandlers() {
         this.formElement.onsubmit = event => this.addRepository(event);
+        this.headerImg.onsubmit = event => this.goToHome
     }
 
     async addRepository() {
@@ -59,7 +60,7 @@ class App {
 
             const linkElement = document.createElement('a')
             linkElement.setAttribute('href', repo.link)
-            linkElement.appendChild(document.createTextNode('Clique para acessar'))
+            linkElement.appendChild(document.createTextNode('Acessar'))
 
             listChildElement.appendChild(imgElement)
             listChildElement.appendChild(titleElement)
