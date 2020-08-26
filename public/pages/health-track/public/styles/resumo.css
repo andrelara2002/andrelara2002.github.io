@@ -54,7 +54,8 @@
     background: var(--accent-color);
     font: 700 4rem Alata;
 }
-#card-button:focus{border: none;
+#card-button:active{
+    outline: none;
 }
 #card-button:hover{
     opacity: .8;
