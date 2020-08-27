@@ -123,6 +123,10 @@ li{
 }
 
 @media (min-width: 1000px){
+    .container{
+        display: grid;
+        grid-template-rows: 1fr 4fr;
+    }
     .header-content {
         display: flex;
         justify-content: space-between;
@@ -131,7 +135,7 @@ li{
         flex-direction: row;
     
         margin: 2rem 4rem;
-        height: 4rem;
+        height: 1rem;
     }
 
     #logo-img, #personal-info{
@@ -139,10 +143,10 @@ li{
     }
 
     #logo-img{
-        width: 4rem;
+        width: 3rem;
     }
     #personal-info{
-        width: 10rem;
+        width: 8rem;
     }
     
     .header-content h1{
@@ -172,8 +176,8 @@ li{
     
     .form-container img{
 
-        width: 2rem;
-        height: 2rem;
+        width: 1rem;
+        height: 1rem;
         border-radius: 50%;
         background: #3056BA;
         padding: 1rem;
@@ -185,7 +189,7 @@ li{
         border: .2rem solid #227cf2;
     
         width: 100%;
-        font: 300 2rem Archivo;
+        font: 300 1.4rem Archivo;
         color: #7e7e7e;
     
         padding: 0 2rem;
@@ -209,8 +213,8 @@ li{
     }
     
     #img-empty-list{
-        width: 60%;
-        margin: 8rem auto;
+        width: 40%;
+        margin: 3rem auto;
         max-width: 750px;
     }
     .main-container{
