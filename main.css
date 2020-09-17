@@ -249,6 +249,7 @@ a{
     cursor: pointer;
 }
 .portfolio a{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -318,6 +319,15 @@ a{
         max-width: 800px;
 
     }
+    .portfolio strong{
+        font-size: 2rem;
+    }
+    .portfolio p {
+        font-size: 1.6rem;
+    }
+    .portfolio li{
+        font-size: 1.6rem;
+    }
     .portfolio h1{
         font-size: 3rem;;
     }
@@ -332,6 +342,7 @@ a{
         border-radius: 1rem;
         width: 12rem;
     }
+    .portfolio-cards Strng
     .card-header-text{
         line-height: 0.21rem;
     }
