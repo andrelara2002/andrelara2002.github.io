@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./styles/root.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <title>Meu Orçamento</title>
+</head>
+
+<body>
+    <div class="cardDiv" id="profile-card">
+        <img src="./Images/profile_img.gif" alt="">
+        <strong id="user-name">Usuário</strong>
+        <p id="valor-hora">Valor por hora</p>
+    </div>
+    <div class="card">
+        <h1>Resumo</h1>
+        <ul id="resumo-list">
+            <li>
+                <Strong id="ganhos">Ganhos mensais <p>R$2000,00</p></Strong>
+            </li>
+            <li>
+                <Strong id="perdas">Gastos mensais <p>R$200,00</p></Strong>
+            </li>
+            <li>
+                <Strong>Expectativa <p>Dentro do esperado</p> </Strong>
+            </li>
+            <li>
+                <div class="spacer"></div>
+            </li>
+            <li>
+                <Strong>% Lucro atual <p>50%</p></Strong>
+            </li>
+            <li>
+                <Strong>Previsão fixa <p>R$ 900,00</p> </Strong>
+            </li>
+            <li>
+                <Strong>Precisão variável <p>R$ 750,00</p> </Strong>
+            </li>
+        </ul>
+    </div>
+    <div class="card">
+        <h1>Rendas</h1>
+        <ul id="rendas-list">
+        </ul>
+        <a href="./public/pages/rendas.html">Alterar</a>
+    </div>
+    <div class="card" id="metas-card">
+        <h1>Metas</h1>
+        <ul id="metas-list">
+            <li>
+                <Strong>Juntar dinheiro <p>R$100,00/Mês</p></Strong>
+            </li>
+        </ul>
+        <a href="./public/pages/metas.html">Alterar</a>
+    </div>
+    <div class="card" id="investimentos-card">
+        <h1>Investimentos</h1>
+        <ul id="investimentos-list">
+            <li>
+                <Strong>Faculdade <p>R$500,00/Mês</p></Strong>
+            </li>
+        </ul>
+        <a href="./public/pages/investimentos.html">Alterar</a>
+    </div>
+    <div class="card">
+        <h1>Custos Fixos</h1>
+        <ul id="custosf-list">
+            <li>
+                <Strong>Uber Mensal <p>R$60,00</p></Strong>
+            </li>
+        </ul>
+        <a href="./public/pages/custosFixos.html">Alterar</a>
+    </div>
+    <div class="card" id="custos-variaveis">
+        <h1>Custos Variáveis</h1>
+        <ul id="custosv-list">
+            <li>
+                <Strong>Uber Mensal <p>R$60,00</p></Strong>
+            </li>
+        </ul>
+        <a href="./public/pages/custosVariaveis.html">Alterar</a>
+    </div>
+    <script src="./src/resumo.js"></script>
+</body>
+
+</html>
