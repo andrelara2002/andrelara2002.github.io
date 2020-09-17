@@ -63,6 +63,8 @@ li strong{
     grid-template-rows: max-content;
 }
 li p{
+    margin: 0;
+    line-height: normal;
     text-align: end;
     font-size: 1rem;
 }

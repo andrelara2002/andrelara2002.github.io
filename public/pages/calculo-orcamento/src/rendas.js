@@ -55,8 +55,8 @@ renderElement = (label, value, num) => {
 }
 
 document.getElementById('adicionar-button').onclick = () => {
-    const nomeValor = window.prompt("Qual o nome do seu custo? (Obrigatório)")
-    let total = window.prompt("Quanto você gasta por mês? (R$ 100,00)")
+    const nomeValor = window.prompt("Qual o nome de sua fonte de renda? (Obrigatório)")
+    let total = window.prompt("Quanto você recebe por mês? (R$ 100,00)")
     total = parseFloat(total)
 
     if (nomeValor != null || nomeValor != "") {

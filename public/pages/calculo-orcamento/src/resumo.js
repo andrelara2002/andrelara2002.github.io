@@ -59,7 +59,7 @@ render = function () {
     for (let sate of state.investimentos.valorMensal){
         state.perdas += sate
     }
-    for (let sate of state.custosVariaveis.valorMensal){
+    for (let sate of state.custosFixos.valorMensal){
         state.perdas += sate
     }
     for (let sate of state.custosVariaveis.valorMensal){
