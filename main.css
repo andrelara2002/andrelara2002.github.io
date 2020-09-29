@@ -186,6 +186,8 @@ a{
 
     border-radius: 10px;
     max-width: 90%;
+
+    border: .2rem solid var(--dark-border);
 }
 .portfolio-cards img{
     width: 28vw;
@@ -293,8 +295,15 @@ a{
         margin: 0;
     }
     .welcome{
-        font-size: 3rem;
+        border: 1px solid red;
+        font-size: 3rem;    
         margin: 10rem auto;
+    }
+    .welcome h1{
+        margin-bottom: 1rem;
+    }
+    .welcome h2 {
+        margin-top: 0;
     }
 
     .card p{
