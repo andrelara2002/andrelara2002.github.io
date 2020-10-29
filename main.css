@@ -23,13 +23,23 @@ html{
     max-width: 1000px;
 
     display: grid;
-    margin-bottom: 5rem;
     margin-right: auto;
     margin-left: auto;
 }
 a{
     cursor: default;
 }
+
+.alertas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: yellow;
+    font: 700 .6rem Archivo;
+    padding: .4rem;
+    text-align: center;
+}
+
 .HeaderButton{
     background: var(--button-color);
     padding: .2rem 1rem;
